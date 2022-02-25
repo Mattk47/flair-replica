@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../flairMedicalLogo.svg'
+import logo from '../../flairMedicalLogo.svg'
 
 const Header = () => {
     return (
