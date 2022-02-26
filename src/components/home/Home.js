@@ -15,42 +15,59 @@ import im8 from '../../images/im8.png'
 const Home = () => {
     return (
         <div>
-            <section>
-                <h1>Enhance your natural beauty</h1>
-                <h3>Be the best kind of you with Flair Aesthetics.</h3>
-                <button>ENQUIRE NOW</button>
-                <button>SEE PRICE LIST</button>
+            <section id='section-1' className='horizontalCenter'>
+                <div class='block1 text-center'>
+                    <div >
+                        <h1>Enhance your <br />natural beauty.</h1>
+                        <h3 className='subHeader'>Be the best kind of you with Flair Aesthetics.</h3>
+
+                    </div>
+                    <div className='btn-pair center-btn'>
+                        <button className='button primary'>ENQUIRE NOW</button>
+                        <button className='button secondary'>SEE PRICE LIST</button>
+
+                    </div>
+                </div>
+                <div>
+                </div>
             </section>
-            <section>
+            <section >
                 <div>
                     <p>At Flair Medical Aesthetics, we combine the most luxurious beauty care with years of experience, allowing you to be the best kind of you.</p>
                 </div>
                 <div>
-                    <p>Start doubling your beauty and feel the true difference.</p>
+                    <p className='coral'>Start doubling your beauty and feel the true difference.</p>
                 </div>
-                <button>ENQUIRE NOW</button>
-            </section>
-            <section>
-                <div>
-                    <img src={mirror} alt='about' />
-                </div>
-                <div>
-                    <h2>About flair</h2>
-                    <p>Flair Medical Aesthetics is owned by Claire Daly, Registered Nurse BSc. Qualifying over 18 years ago. My background is in Emergency Care ( Accident & Emergency). I am a qualified Emergency Nurse practitioner (ENP) with a prescribing qualification.</p>
-                    <p>I am currently working in a GP practice as a Nurse team manager. I also teach Basic Life Support in both adult and paediatrics. I started Aesthetics 3 years ago, and it has become my passion. I love making people feel good about themselves. I am trained in advanced Aesthetics.</p>
-                    <p>I continually update my skill set, which allows me to be up to date with the most recent evidence-based research. I am professional, discreet and trustworthy and I look forward to meeting you and helping you to be the best kind of you.</p>
-                    <a href='/enquire'>
-                        <button>ENQUIRE NOW</button>
-                    </a>
+                <div className='center'>
+                    <button className='button primary'>ENQUIRE NOW</button>
                 </div>
             </section>
+            <section id='section-3'>
+                <div className='block2'>
+                    <div className='centerPic'>
+                        <img className='mirror' src={mirror} alt='about' />
+
+                    </div>
+                    <div>
+                        <h2>About flair</h2>
+                        <p>Flair Medical Aesthetics is owned by Claire Daly, Registered Nurse BSc. Qualifying over 18 years ago. My background is in Emergency Care ( Accident & Emergency). I am a qualified Emergency Nurse practitioner (ENP) with a prescribing qualification.</p>
+                        <p>I am currently working in a GP practice as a Nurse team manager. I also teach Basic Life Support in both adult and paediatrics. I started Aesthetics 3 years ago, and it has become my passion. I love making people feel good about themselves. I am trained in advanced Aesthetics.</p>
+                        <p>I continually update my skill set, which allows me to be up to date with the most recent evidence-based research. I am professional, discreet and trustworthy and I look forward to meeting you and helping you to be the best kind of you.</p>
+                        <div className='center'>
+                            <a href='/enquire'>
+                                <button className='button primary'>ENQUIRE NOW</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section>
-                <div>
+                <div className='block2'>
                     <div>
                         <h2>Dermal Fillers</h2>
                         <p>Look after your face with our luxury injectables. Our clinic offers face and lip fillers to bring out the best in you.</p>
                         <a href='/enquire'>
-                            <button>ENQUIRE NOW</button>
+                            <button className='button primary'>ENQUIRE NOW</button>
                         </a>
                     </div>
                     <div>
@@ -65,7 +82,7 @@ const Home = () => {
                         <p>Relax in a world of facial paradise with our specialist beautifying skin treatments to cleanse and moisturise like never before.
                         </p>
                         <a href='/enquire'>
-                            <button>ENQUIRE NOW</button>
+                            <button className='button primary'>ENQUIRE NOW</button>
                         </a>
                     </div>
                     <div>
@@ -80,7 +97,7 @@ const Home = () => {
                             <h2>Personal Care</h2>
                             <p>We look after your entire body with our list of personal care treatments. From eyebrows to IV therapy, feel your absolute best from Flair.</p>
                             <a href='/enquire'>
-                                <button>ENQUIRE NOW</button>
+                                <button className='button primary'>ENQUIRE NOW</button>
                             </a>
                         </div>
                         <div>
