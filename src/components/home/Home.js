@@ -61,47 +61,56 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section >
                 <div className='block2'>
                     <div>
                         <h2>Dermal Fillers</h2>
                         <p>Look after your face with our luxury injectables. Our clinic offers face and lip fillers to bring out the best in you.</p>
-                        <a href='/enquire'>
-                            <button className='button primary'>ENQUIRE NOW</button>
-                        </a>
+                        <div className='center'>
+                            <a href='/enquire'>
+                                <button className='button primary btn-margin'>ENQUIRE NOW</button>
+                            </a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img src={lipfillers} alt='lipfillers' />
+                    <div className='center'>
+                        <img className='image' src={lipfillers} alt='lipfillers' />
                     </div>
                 </div>
             </section>
             <section>
-                <div>
-                    <div>
+                <div className='block2'>
+                    <div className='center'>
+                        <img className='image' src={facial} alt='facial' />
+                    </div>
+                    <div >
                         <h2>Facial Treatments</h2>
                         <p>Relax in a world of facial paradise with our specialist beautifying skin treatments to cleanse and moisturise like never before.
                         </p>
-                        <a href='/enquire'>
-                            <button className='button primary'>ENQUIRE NOW</button>
-                        </a>
+                        <div className='center'>
+                            <a href='/enquire'>
+                                <button className='button primary btn-margin'>ENQUIRE NOW</button>
+                            </a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img src={facial} alt='facial' />
-                    </div>
+
                 </div>
             </section>
             <section>
                 <div>
-                    <div>
+                    <div className='block2'>
                         <div>
                             <h2>Personal Care</h2>
                             <p>We look after your entire body with our list of personal care treatments. From eyebrows to IV therapy, feel your absolute best from Flair.</p>
-                            <a href='/enquire'>
-                                <button className='button primary'>ENQUIRE NOW</button>
-                            </a>
+                            <div className='center'>
+                                <a href='/enquire'  >
+                                    <button className='button primary'>ENQUIRE NOW</button>
+                                </a>
+                            </div>
                         </div>
-                        <div>
-                            <img src={personalCare} alt='personal care' />
+                        <div className='center'>
+                            <img className='image' src={personalCare} alt='personal care' />
                         </div>
                     </div>
                 </div>
