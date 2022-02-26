@@ -23,7 +23,7 @@ m{
   margin-right:20px;
 }
 
-li {
+.inline {
   display: inline;
 }
 
@@ -62,7 +62,7 @@ body{
 }
 #section-3{
   background-color: #77cfd2;
-  color: white
+  color: white;
 }
 
 section {
@@ -78,6 +78,10 @@ body{
 
 .secondary {
   background-color:#BEA960;
+}
+
+.tertiary {
+  color:#BEA960;
 }
 
 /* CSS */
@@ -108,7 +112,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-h3{
+h3, h4{
   font-weight: 100;
 }
 
@@ -191,8 +195,8 @@ p, h2{
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 450px) {
-  .block1{
+@media screen and (min-width: 600px) {
+  .title{
     margin-top: 5rem;
     margin-right: 25rem;
   } 
@@ -250,6 +254,11 @@ p, h2{
   .pics { grid-template-columns: repeat(4, 1fr); }
   .btn-margin{
     margin-top: 2rem;
+  }
+  .priceTitle{
+    margin-left: 7rem;
+    height: 200px;
+    padding-top: 3rem;
   }
 }
 

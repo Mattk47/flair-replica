@@ -17,7 +17,7 @@ const Home = () => {
     return (
         <div>
             <section id='section-1' className='horizontalCenter'>
-                <div class='block1 text-center'>
+                <div class='title text-center'>
                     <div >
                         <h1>Enhance your <br />natural beauty.</h1>
                         <h3 className='subHeader'>Be the best kind of you with Flair Aesthetics.</h3>
@@ -128,12 +128,6 @@ const Home = () => {
                         <div><img className='pic' src={im6} alt='Home Content' /></div>
                         <div><img className='pic' src={im7} alt='Home Content' /></div>
                         <div><img className='pic' src={im8} alt='Home Content' /></div>
-
-
-
-
-
-
                     </div>
                 </div>
             </section>

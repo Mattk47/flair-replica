@@ -5,13 +5,13 @@ const Header = () => {
     return (
         <div className='navbar center'>
             <ul>
-                <li ><a className='m' href='/price_list'>PRICE LIST</a></li>
-                <li>
+                <li className='inline'><a className='m' href='/price_list'>PRICE LIST</a></li>
+                <li className='inline'>
                     <a href='/'>
                         <img src={logo} alt='logo' />
                     </a>
                 </li>
-                <li ><a className='m' href='/enquire'>ENQUIRE</a></li>
+                <li className='inline'><a className='m' href='/enquire'>ENQUIRE</a></li>
             </ul>
 
 
