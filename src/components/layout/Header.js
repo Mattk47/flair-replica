@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../flairMedicalLogo.svg'
+import logo from '../../images/flairMedicalLogo.svg'
 
 const Header = () => {
     return (
@@ -7,7 +7,9 @@ const Header = () => {
             <ul>
                 <li><a href='/price_list'>Price List</a></li>
                 <li>
-                    <img src={logo} alt='logo' />
+                    <a href='/'>
+                        <img src={logo} alt='logo' />
+                    </a>
                 </li>
                 <li><a href='/enquire'>Enquire</a></li>
             </ul>
