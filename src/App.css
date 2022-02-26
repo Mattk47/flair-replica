@@ -164,10 +164,14 @@ li a{
 .slick-slide p {
   font-size: 1.5rem;
 }
+.plist{
+  padding-bottom: 0;
+}
+.subTop{
+  margin-top:10px;
+}
 
 } 
-
-
 
 p, h2{
   padding: 1rem;
@@ -266,3 +270,13 @@ p, h2{
   margin-top: 2rem;
 }
 
+.z{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.paddingRight{
+  padding-right: 80px;
+  padding-left: 30px;
+}
