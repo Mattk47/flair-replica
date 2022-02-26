@@ -233,10 +233,27 @@ p, h2{
   grid-gap: 1rem;
 }
 
+.pics{ 
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.pic{
+  max-width: 300px;
+  max-height: 300px;
+}
+
 @media (min-width: 600px) {
   .block2 { grid-template-columns: repeat(2, 1fr); }
+  .pics { grid-template-columns: repeat(4, 1fr); }
   .btn-margin{
     margin-top: 2rem;
   }
+}
+
+.marginTop{
+  margin-top: 2rem;
 }
 

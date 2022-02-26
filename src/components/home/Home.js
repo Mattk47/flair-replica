@@ -13,6 +13,7 @@ import im6 from '../../images/im6.png'
 import im7 from '../../images/im7.png'
 import im8 from '../../images/im8.png'
 const Home = () => {
+    const screenWidth = window.innerWidth
     return (
         <div>
             <section id='section-1' className='horizontalCenter'>
@@ -118,15 +119,20 @@ const Home = () => {
             <SlickSlider />
             <section>
                 <div>
-                    <div>
-                        <div><img src={im1} alt='Home Content' /></div>
-                        <div><img src={im2} alt='Home Content' /></div>
-                        <div><img src={im3} alt='Home Content' /></div>
-                        <div><img src={im4} alt='Home Content' /></div>
-                        <div><img src={im5} alt='Home Content' /></div>
-                        <div><img src={im6} alt='Home Content' /></div>
-                        <div><img src={im7} alt='Home Content' /></div>
-                        <div><img src={im8} alt='Home Content' /></div>
+                    <div className='pics marginTop center'>
+                        <div><img className='pic' src={im1} alt='Home Content' /></div>
+                        <div><img className='pic' src={im2} alt='Home Content' /></div>
+                        <div><img className='pic' src={im3} alt='Home Content' /></div>
+                        <div><img className='pic' src={im4} alt='Home Content' /></div>
+                        <div><img className='pic' src={im5} alt='Home Content' /></div>
+                        <div><img className='pic' src={im6} alt='Home Content' /></div>
+                        <div><img className='pic' src={im7} alt='Home Content' /></div>
+                        <div><img className='pic' src={im8} alt='Home Content' /></div>
+
+
+
+
+
 
                     </div>
                 </div>
