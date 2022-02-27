@@ -3,15 +3,15 @@ import logo from '../../images/flairMedicalLogo.svg'
 
 const Header = () => {
     return (
-        <div className='navbar center'>
+        <div className='navbar'>
             <ul>
-                <li className='inline'><a className='m' href='/price_list'>PRICE LIST</a></li>
-                <li className='inline'>
+                <li className="formatNavLink"><a href='/price_list'>PRICE LIST</a></li>
+                <li>
                     <a href='/'>
                         <img src={logo} alt='logo' />
                     </a>
                 </li>
-                <li className='inline'><a className='m' href='/enquire'>ENQUIRE</a></li>
+                <li className="formatNavLink"><a href='/enquire'>ENQUIRE</a></li>
             </ul>
 
 
