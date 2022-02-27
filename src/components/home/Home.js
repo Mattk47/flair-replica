@@ -23,7 +23,7 @@ const Home = () => {
                         <h3 className='subHeader'>Be the best kind of you with Flair Aesthetics.</h3>
 
                     </div>
-                    <div className='btn-pair center-btn'>
+                    <div className='btn-pair center'>
                         <button className='button primary'>ENQUIRE NOW</button>
                         <button className='button secondary'>SEE PRICE LIST</button>
 
@@ -119,15 +119,15 @@ const Home = () => {
             <SlickSlider />
             <section>
                 <div>
-                    <div className='pics marginTop center'>
-                        <div><img className='pic' src={im1} alt='Home Content' /></div>
-                        <div><img className='pic' src={im2} alt='Home Content' /></div>
-                        <div><img className='pic' src={im3} alt='Home Content' /></div>
-                        <div><img className='pic' src={im4} alt='Home Content' /></div>
-                        <div><img className='pic' src={im5} alt='Home Content' /></div>
-                        <div><img className='pic' src={im6} alt='Home Content' /></div>
-                        <div><img className='pic' src={im7} alt='Home Content' /></div>
-                        <div><img className='pic' src={im8} alt='Home Content' /></div>
+                    <div className='pics marginTop'>
+                        <div className='center'><img className='pic' src={im1} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im2} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im3} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im4} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im5} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im6} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im7} alt='Home Content' /></div>
+                        <div className='center'><img className='pic' src={im8} alt='Home Content' /></div>
                     </div>
                 </div>
             </section>
