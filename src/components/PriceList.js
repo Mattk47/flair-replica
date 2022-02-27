@@ -3,7 +3,7 @@ import React from 'react'
 const PriceList = () => {
     return (
         <div>
-            <section id="section-3" >
+            <section id="section-3" className="titleHeight" >
                 <div className='priceTitle'>
                     <h1 className='plist'>Price List</h1>
                     <h4 className='subTop'>Our full menu of luxurious body care

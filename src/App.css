@@ -65,6 +65,10 @@ body{
   color: white;
 }
 
+.titleHeight{
+  height: 250px;
+}
+
 section {
   max-width: 100%;
 }
@@ -121,6 +125,12 @@ h2 {
 }
 
 @media screen and (max-width: 450px) {
+  .titleHeight{
+    height: 175px;
+  }
+  .subTop{
+    padding: 0 5px;
+  }
   #section-1{
     height: 500px;
     color: white;
@@ -213,7 +223,10 @@ p, h2{
   width: 60%;
   padding-left: 10px;
  }
- h1 {
+ h1{
+   font-size: 4rem;
+ }
+ .mainTitle {
   font-size: 4rem;
   padding: 4rem;
   margin-bottom: 0;
@@ -235,13 +248,18 @@ h2{
   margin: 0;
   padding: 10px 25px;
 }
+
+.subTop{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.priceTitle{
+  margin-left: 7rem;
+  height: 150px;
+  padding-top: 3rem;
+}
 }
 
-@media screen and (min-width: 600px) {
-  .mirror{
-    margin-top: -2rem;
-  } 
- } 
 
 .horizontalCenter {
   display: flex;
@@ -288,11 +306,16 @@ h2{
   .btn-margin{
     margin-top: 2rem;
   }
+  .mirror{
+    margin-top: -2rem;
+  } 
+
   .priceTitle{
     margin-left: 7rem;
-    height: 200px;
+    height: 150px;
     padding-top: 3rem;
   }
+ 
 }
 
 .marginTop{

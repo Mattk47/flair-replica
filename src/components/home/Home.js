@@ -19,7 +19,7 @@ const Home = () => {
             <section id='section-1' className='horizontalCenter'>
                 <div class='title text-center main'>
                     <div >
-                        <h1>Enhance your <br />natural beauty.</h1>
+                        <h1 className='mainTitle'>Enhance your <br />natural beauty.</h1>
                         <h3 className='subHeader'>Be the best kind of you with Flair Aesthetics.</h3>
 
                     </div>
