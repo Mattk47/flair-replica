@@ -13,11 +13,11 @@ import im6 from '../../images/im6.png'
 import im7 from '../../images/im7.png'
 import im8 from '../../images/im8.png'
 const Home = () => {
-    const screenWidth = window.innerWidth
+
     return (
         <div>
             <section id='section-1' className='horizontalCenter'>
-                <div class='title text-center'>
+                <div class='title text-center main'>
                     <div >
                         <h1>Enhance your <br />natural beauty.</h1>
                         <h3 className='subHeader'>Be the best kind of you with Flair Aesthetics.</h3>

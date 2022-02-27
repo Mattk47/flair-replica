@@ -207,13 +207,37 @@ p, h2{
     align-items: center;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+ .main{
+  margin: auto;
+  width: 60%;
+  padding-left: 10px;
+ }
+ h1 {
+  font-size: 4rem;
+  padding: 4rem;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 2.5rem;
+}
+.button {
+  border-radius: 15px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  height: 50px;
+  line-height: 10px;
+  margin: 0;
+  padding: 10px 25px;
+}
+}
 
 @media screen and (min-width: 600px) {
- 
-  .title{
-    margin-top: 5rem;
-    margin-right: 25rem;
-  } 
   .mirror{
     margin-top: -2rem;
   } 
@@ -330,25 +354,21 @@ h3 {
 .footer{
   padding: 10px;
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-}
-
-.footer-element{
-margin: 10px;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .h{
-  text-align: left;
-  padding:0;
+  margin-bottom:5px;
 }
+
 
 .form-segment{
     border: 2px solid rgb(190, 169, 96);
     outline: none;
     color: rgb(190, 169, 96);
     padding-right: 40px;
-    margin:10px;
+    margin:30px;
 }
 
 .dropdown-content {
@@ -420,5 +440,15 @@ textarea {
 }
 
 ul.form-segment.dropdown{
+  padding:0;
+}
+
+.margin-bottom{
+  margin-bottom:10rem;
+}
+
+.footerList {
+  display: table;
+  margin: 0 auto;
   padding:0;
 }

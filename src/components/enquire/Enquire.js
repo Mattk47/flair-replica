@@ -170,8 +170,7 @@ const Enquire = () => {
                         <div className='form-segment'>
                             <textArea cols='75' rows='4' placeholder='Enquiry'></textArea>
                         </div>
-                        <div className='center'>
-
+                        <div className='center margin-bottom'>
                             <button type='submit' value='Login' className='button primary'>Submit </button>
                         </div>
                     </form>
