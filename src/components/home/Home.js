@@ -24,8 +24,13 @@ const Home = () => {
 
                     </div>
                     <div className='btn-pair center'>
-                        <button className='button primary'>ENQUIRE NOW</button>
-                        <button className='button secondary'>SEE PRICE LIST</button>
+                        <a href='/enquire'>
+                            <button className='button primary'>ENQUIRE NOW</button>
+
+                        </a>
+                        <a href='price_list'>
+                            <button className='button secondary'>SEE PRICE LIST</button>
+                        </a>
 
                     </div>
                 </div>
@@ -40,8 +45,10 @@ const Home = () => {
                     <p className='coral'>Start doubling your beauty and feel the true difference.</p>
                 </div>
                 <div className='center'>
-                    <button className='button primary'>ENQUIRE NOW</button>
-                </div>
+                    <a href='/enquire'>
+                        <button className='button primary'>ENQUIRE NOW</button>
+
+                    </a>                </div>
             </section>
             <section id='section-3'>
                 <div className='block2'>
