@@ -4,7 +4,7 @@ import arrow from '../../images/dropdownArrow.svg'
 const Enquire = () => {
     return (
         <div>
-            <section id='section-3' className='titleHeight'>
+            <section id='cyanSection' className='titleHeight'>
                 <div className='priceTitle '>
                     <h1 className='plist'>Enquire Now</h1>
                     <h4 className='mleft mright'>Fill in the form below to start your journey to doubling your beauty

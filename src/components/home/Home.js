@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <div>
-            <section id='section-1' className='horizontalCenter'>
+            <section id='titleSection' className='horizontalCenter'>
                 <div class='title text-center main titleBlockM'>
                     <div >
                         <h1 className='mainTitle'>Enhance your <br />natural beauty.</h1>
@@ -50,7 +50,7 @@ const Home = () => {
 
                     </a>                </div>
             </section>
-            <section id='section-3'>
+            <section id='cyanSection'>
                 <div className='block2'>
                     <div className='centerPic'>
                         <img className='mirror' src={mirror} alt='about' />
@@ -126,7 +126,7 @@ const Home = () => {
             <SlickSlider />
             <section>
                 <div>
-                    <div className='pics marginTop'>
+                    <div className='pics imageSecMargin'>
                         <div className='center'><img className='pic' src={im1} alt='Home Content' /></div>
                         <div className='center'><img className='pic' src={im2} alt='Home Content' /></div>
                         <div className='center'><img className='pic' src={im3} alt='Home Content' /></div>
