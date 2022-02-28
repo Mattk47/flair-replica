@@ -6,7 +6,7 @@ const PriceList = () => {
             <section id="section-3" className="titleHeight" >
                 <div className='priceTitle'>
                     <h1 className='plist'>Price List</h1>
-                    <h4 className='subTop'>Our full menu of luxurious body care
+                    <h4 className='mleft'>Our full menu of luxurious body care
                     </h4>
                 </div>
             </section>

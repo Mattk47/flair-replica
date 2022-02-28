@@ -182,6 +182,10 @@ li a{
   margin-top:10px;
 }
 
+.mleft{
+  margin-left: 8px;
+}
+
 } 
 
 p, h2{
@@ -249,14 +253,13 @@ h2{
   padding: 10px 25px;
 }
 
-.subTop{
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
 .priceTitle{
   margin-left: 7rem;
   height: 150px;
   padding-top: 3rem;
+}
+.midmargin{
+  margin-right: 20px;
 }
 }
 
