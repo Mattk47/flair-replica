@@ -7,7 +7,7 @@ const Enquire = () => {
             <section id='section-3' className='titleHeight'>
                 <div className='priceTitle '>
                     <h1 className='plist'>Enquire Now</h1>
-                    <h4 className='mleft'>Fill in the form below to start your journey to doubling your beauty
+                    <h4 className='mleft mright'>Fill in the form below to start your journey to doubling your beauty
                     </h4>
                 </div>
             </section>

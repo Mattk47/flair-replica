@@ -186,6 +186,7 @@ li a{
   margin-left: 8px;
 }
 
+
 } 
 
 p, h2{
@@ -222,6 +223,10 @@ p, h2{
   }
 }
 @media screen and (min-width: 451px) and (max-width: 1000px) {
+  .mright{
+    margin-right:10px
+  }
+  
  .main{
   margin: auto;
   width: 60%;
