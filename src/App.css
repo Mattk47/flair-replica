@@ -379,6 +379,8 @@ h3 {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-bottom: 5rem;
+
 }
 
 .h{
@@ -433,7 +435,7 @@ input[type="text"]
     font-size:20px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
   color: rgb(190, 169, 96);
   font-family: "ainslie-sans", sans-serif;
   font-weight: 100;
@@ -475,3 +477,14 @@ ul.form-segment.dropdown{
   margin: 0 auto;
   padding:0;
 }
+
+ .g{
+  margin-right: 20px;
+}
+.i{
+  margin-right: 70px;
+}
+.j{
+  margin-right: 130px;
+} 
+
