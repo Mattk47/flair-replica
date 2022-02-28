@@ -46,6 +46,7 @@ li a {
   font-size: 2.5rem;
 }
 
+
 body{
   font-family: "ainslie-sans", sans-serif;
   font-style: normal;
@@ -124,6 +125,11 @@ h2 {
   font-size: 2.5em;
 }
 
+@media screen and (min-width: 1000px) {
+.titleBlockM{
+  margin-right: 200px;
+}
+}
 @media screen and (max-width: 450px) {
   .titleHeight{
     height: 175px;
