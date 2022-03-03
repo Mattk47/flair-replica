@@ -4,8 +4,8 @@ body{
   font-weight: 200;
   font-size: 1.25rem;
   margin: 0px;
-  padding: 0px
-  
+  padding: 0px;
+  height: auto;
 }
 
 ul {
@@ -109,12 +109,14 @@ li a {
   color:#77cfd2
 }
 
-.btn-pair{
+.btn-pair {
   display: flex;
-  gap: 5rem;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 2rem;
 }
+
 
 /* Heading */
 
@@ -367,9 +369,8 @@ li a{
 }
 
 .center-btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1, 1fr;
 }
 .slick-slide p {
   font-size: 1.5rem;
@@ -385,6 +386,19 @@ li a{
 .mleft{
   margin-left: 8px;
 }
+
+.btn-pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn-margin {
+  margin:10px;
+}
+
 
 } 
 
@@ -436,7 +450,7 @@ li a{
   
   @media (min-width: 600px) {
     .block2 { grid-template-columns: repeat(2, 1fr); }
-    .btn-margin{
+    .btn-margin-top{
       margin-top: 2rem;
     }
     .mirror{
@@ -464,5 +478,5 @@ li a{
       margin-right: 200px;
     }
     }
-  
-   
+
+    

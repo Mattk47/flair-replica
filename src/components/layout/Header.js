@@ -4,6 +4,7 @@ import logo from '../../images/flairMedicalLogo.svg'
 const Header = () => {
     return (
         <div className='navbar'>
+
             <ul>
                 <li className="formatNavLink "><a href='/price_list'>PRICE LIST</a></li>
                 <li>

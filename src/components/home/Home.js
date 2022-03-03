@@ -23,12 +23,12 @@ const Home = () => {
                         <h3 className='subHeader'>Be the best kind of you with Flair Aesthetics.</h3>
 
                     </div>
-                    <div className='btn-pair center'>
-                        <a href='/enquire'>
+                    <div className='btn-pair'>
+                        <a href='/enquire' className='btn-margin'>
                             <button className='button primary'>ENQUIRE NOW</button>
 
                         </a>
-                        <a href='price_list'>
+                        <a href='price_list' className='btn-margin' >
                             <button className='button secondary'>SEE PRICE LIST</button>
                         </a>
 
@@ -48,7 +48,8 @@ const Home = () => {
                     <a href='/enquire'>
                         <button className='button primary'>ENQUIRE NOW</button>
 
-                    </a>                </div>
+                    </a>
+                </div>
             </section>
             <section id='cyanSection'>
                 <div className='block2'>
@@ -63,7 +64,7 @@ const Home = () => {
                         <p>I continually update my skill set, which allows me to be up to date with the most recent evidence-based research. I am professional, discreet and trustworthy and I look forward to meeting you and helping you to be the best kind of you.</p>
                         <div className='center'>
                             <a href='/enquire'>
-                                <button className='button primary'>ENQUIRE NOW</button>
+                                <button className='button primary btn-margin-top'>ENQUIRE NOW</button>
                             </a>
                         </div>
                     </div>
@@ -76,7 +77,7 @@ const Home = () => {
                         <p>Look after your face with our luxury injectables. Our clinic offers face and lip fillers to bring out the best in you.</p>
                         <div className='center'>
                             <a href='/enquire'>
-                                <button className='button primary btn-margin'>ENQUIRE NOW</button>
+                                <button className='button primary btn-margin-top'>ENQUIRE NOW</button>
                             </a>
 
                         </div>
@@ -97,7 +98,7 @@ const Home = () => {
                         </p>
                         <div className='center'>
                             <a href='/enquire'>
-                                <button className='button primary btn-margin'>ENQUIRE NOW</button>
+                                <button className='button primary btn-margin-top'>ENQUIRE NOW</button>
                             </a>
 
                         </div>

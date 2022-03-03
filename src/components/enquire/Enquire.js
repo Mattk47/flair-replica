@@ -174,7 +174,6 @@ const Enquire = () => {
                             <button type='submit' value='Login' className='button primary'>Submit </button>
                         </div>
                     </form>
-
                 </div>
             </section >
         </div >
